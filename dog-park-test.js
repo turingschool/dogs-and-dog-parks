@@ -20,7 +20,7 @@ describe('Dog Park', function() {
 
   it('should be able to add a dog', function() {
     var cherryCreek = new DogPark("Cherry Creek");
-    var sophie = new Dog("Sophie", "Bernadoodle");
+    var sophie = new Dog({ name: "Sophie", breed: "Bernadoodle" });
 
     cherryCreek.addDog(sophie);
 
@@ -29,9 +29,9 @@ describe('Dog Park', function() {
 
   it('should be able to add multiple dogs', function() {
     var cherryCreek = new DogPark("Cherry Creek");
-    var sophie = new Dog("Sophie", "Bernadoodle");
-    var toph = new Dog("Toph", "Goldendoodle");
-    var sodie = new Dog("Sodie", "Shih-Tzu");
+    var sophie = new Dog({ name: "Sophie", breed: "Bernadoodle" });
+    var toph = new Dog({ name: "Toph", breed: "Goldendoodle" });
+    var sodie = new Dog({ name: "Sodie", breed: "Shih-Tzu" });
 
     cherryCreek.addDog(sophie);
     cherryCreek.addDog(toph);
@@ -42,9 +42,9 @@ describe('Dog Park', function() {
 
   it('should be able to remove a dog', function() {
     var cherryCreek = new DogPark("Cherry Creek");
-    var sophie = new Dog("Sophie", "Bernadoodle");
-    var toph = new Dog("Toph", "Goldendoodle");
-    var sodie = new Dog("Sodie", "Shih-Tzu");
+    var sophie = new Dog({ name: "Sophie", breed: "Bernadoodle" });
+    var toph = new Dog({ name: "Toph", breed: "Goldendoodle" });
+    var sodie = new Dog({ name: "Sodie", breed: "Shih-Tzu" });
 
     cherryCreek.addDog(sophie);
     cherryCreek.addDog(toph);

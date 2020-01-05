@@ -1,7 +1,7 @@
 class Dog {
-  constructor(name, breed) {
-    this.name = name;
-    this.breed = breed;
+  constructor(dogInfo) {
+    this.name = dogInfo.name;
+    this.breed = dogInfo.breed;
     this.energy = 3;
     this.hungry = false;
     this.toys = [];
