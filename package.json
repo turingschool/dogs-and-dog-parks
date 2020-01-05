@@ -1,0 +1,14 @@
+{
+  "name": "aquarium",
+  "version": "1.0.0",
+  "description": "Aquarium Mock Assessment",
+  "main": "fish-test.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
